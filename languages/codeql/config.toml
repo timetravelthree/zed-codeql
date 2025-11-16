@@ -1,0 +1,5 @@
+name = "CodeQL"
+grammar = "ql"
+path_suffixes = ["ql", "qll"]
+line_comments = ["// "]
+block_comment = ["/*", "*/"]

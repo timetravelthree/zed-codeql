@@ -1,0 +1,15 @@
+id = "ql"
+name = "CodeQL"
+version = "0.0.1"
+schema_version = 1
+authors = ["timetravel3 <dantexor@protonmail.com>"]
+description = "CodeQL language support for Zed"
+repository = "https://github.com/timetravel3/zed-codeql"
+
+[grammars.ql]
+repository = "https://github.com/tree-sitter/tree-sitter-ql"
+rev = "master"
+
+[language_servers.ql]
+name = "CodeQL LSP"
+languages = ["CodeQL"]
